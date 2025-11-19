@@ -7,7 +7,7 @@ const MidPageCTA = ({ onNavigate }) => (
       </p>
       <button 
         onClick={() => onNavigate('contact')}
-        className="bg-purple-600 hover:bg-purple-700 text-white text-lg font-semibold px-8 py-3 rounded-xl transition transform hover:scale-105 shadow-2xl shadow-purple-900/50"
+        className="bg-purple-600 hover:bg-purple-700 text-white text-lg font-semibold px-8 py-3 rounded-xl transition transform hover:scale-105 shadow-2xl shadow-purple-900/50 cursor-pointer"
       >
         Solicitar Orçamento Gratuito
       </button>

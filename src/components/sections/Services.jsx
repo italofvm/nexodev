@@ -63,7 +63,7 @@ const Services = ({ onNavigate }) => (
               {service.isCta && (
                 <button
                   onClick={() => onNavigate('contact')}
-                  className="mt-auto bg-yellow-500/10 text-yellow-400 border border-yellow-500/30 px-4 py-2 rounded-lg text-sm font-medium hover:bg-yellow-500/20 transition"
+                  className="mt-auto bg-yellow-500/10 text-yellow-400 border border-yellow-500/30 px-4 py-2 rounded-lg text-sm font-medium hover:bg-yellow-500/20 transition cursor-pointer"
                 >
                   Solicitar Suporte Mensal
                 </button>

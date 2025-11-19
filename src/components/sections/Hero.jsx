@@ -7,7 +7,7 @@ const Hero = () => (
       <p className="text-lg text-gray-400 mb-10 max-w-2xl mx-auto">
         Criamos soluções digitais inovadoras e de alta performance que transformam suas ideias em realidade.
       </p>
-      <button className="bg-purple-600 hover:bg-purple-700 text-white text-lg font-semibold px-8 py-3 rounded-xl transition transform hover:scale-105 shadow-2xl shadow-purple-900/50">
+      <button className="bg-purple-600 hover:bg-purple-700 text-white text-lg font-semibold px-8 py-3 rounded-xl transition transform hover:scale-105 shadow-2xl shadow-purple-900/50 cursor-pointer">
         Começar Projeto
       </button>
     </div>

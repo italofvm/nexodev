@@ -23,25 +23,25 @@ const AboutUsSection = () => (
           <span className="text-sm font-semibold text-purple-500 uppercase tracking-wider mb-2 block">Nossa Missão</span>
           <h2 className="text-3xl font-bold text-white mb-6">Por trás do código, há pessoas e resultados.</h2>
           <p className="text-lg text-gray-400 mb-6">
-            A NexoDev nasceu da crença de que a tecnologia deve ser uma **ferramenta de crescimento**, e não um obstáculo. Nossa filosofia é simples: combinar design de ponta com engenharia robusta.
+            A NexoDev nasceu da crença de que a tecnologia deve ser uma <strong>ferramenta de crescimento</strong>, e não um obstáculo. Nossa filosofia é simples: combinar design de ponta com engenharia robusta.
           </p>
           <ul className="space-y-3 text-gray-300">
             <li className="flex items-start">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-purple-400 mr-3 mt-1 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              **Foco no Valor:** Cada linha de código deve gerar retorno para o seu negócio.
+              <strong>Foco no Valor:</strong> &nbsp;Cada linha de código deve gerar retorno para o seu negócio.
             </li>
             <li className="flex items-start">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-purple-400 mr-3 mt-1 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              **Transparência Total:** Você acompanha o projeto em tempo real.
+              <strong>Transparência Total:</strong>&nbsp; Você acompanha o projeto em tempo real.
             </li>
           </ul>
           <button 
             onClick={() => document.getElementById('processo').scrollIntoView({ behavior: 'smooth' })}
-            className="mt-8 text-sm font-medium text-purple-400 hover:text-purple-300 transition flex items-center"
+            className="mt-8 text-sm font-medium text-purple-400 hover:text-purple-300 transition flex items-center cursor-pointer"
           >
             Conheça Nosso Processo
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2">

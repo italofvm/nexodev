@@ -98,7 +98,7 @@ const Footer = ({ openModal }) => {
                 </button>
               </li>
               <li>
-                <p className="text-sm text-purple-400 mt-4">contato@nexodev.com</p>
+                <p className="text-sm text-purple-400 mt-4">nexodev19@gmail.com</p>
               </li>
             </ul>
           </div>
