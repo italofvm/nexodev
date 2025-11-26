@@ -6,7 +6,7 @@ import { GEMINI_CONFIG, SYSTEM_PROMPT, CHATBOT_MESSAGES } from '../utils/chatbot
  */
 class GeminiService {
     constructor() {
-        this.apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+        this.apiKey = import.meta.env.VITE_GEMINI_API_TOKEN;
         this.genAI = null;
         this.model = null;
         this.chat = null;
@@ -19,7 +19,7 @@ class GeminiService {
      */
     initialize() {
         if (!this.apiKey) {
-            console.warn('VITE_GEMINI_API_KEY não encontrada. Chatbot funcionará em modo limitado.');
+            console.warn('VITE_GEMINI_API_TOKEN não encontrada. Chatbot funcionará em modo limitado.');
             return;
         }
 
